@@ -1,6 +1,7 @@
 #include <stdio.h>
 /**
- * prints using put
+ *main - entry point
+ *return: 0 success
  */
 int main(void)
 {
