@@ -4,12 +4,12 @@
  *
  * Return: 0
  */
-int _abs(int)
+int _abs(int n)
 {
-	if (int < 0)
-		putchar('int *= -1');
-	else if (int > 0)
-		putchar(int);
+	if (n < 0)
+		putchar('n *= -1');
+	else if (n > 0)
+		putchar(n);
 	else
 		putchar('0');
 }
