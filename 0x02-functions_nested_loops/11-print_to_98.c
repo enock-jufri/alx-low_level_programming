@@ -14,20 +14,16 @@ void print_to_98(int n)
 	{
 		for (i = n; i <= 98; i++)
 		{
-			_putchar(i + 48);
-			_putchar(44);
-			_putchar(32);
+			printf("%d, ", i);
 		}
 	}
 	else if (n == 98)
-		_putchar(n + 48);
+		printf("%d, ", n);
 	else
 	{
-		for (i = n; i >= 98; i++)
+		for (i = n; i >= 98; i--)
 		{
-			_putchar(i + 48);
-			_putchar(44);
-			_putchar(32);
+			printf("%d, ", i);
 		}
 	}
 }
