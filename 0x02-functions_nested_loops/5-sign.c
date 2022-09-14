@@ -1,8 +1,8 @@
 #include "main.h"
-#include <stdio.h>
 /**
  * print_sign - returns 1 if input is > 1, 0 if 0 and < 1 -1
- 
+ *
+ * @r: input from main
  *
  * Return: 0,1,-1
  *
