@@ -9,7 +9,7 @@
 void puts2(char *str)
 {
 	int l = 0;
-	char *y = *str;
+	char *y = str;
 	int len = 0;
 	int z = 0;
 
@@ -23,7 +23,7 @@ void puts2(char *str)
 	{
 		if (z % 2 == 0)
 		{
-			putchar(str[z])
+			putchar(str[z]);
 		}
 		putchar('\n');
 	}
