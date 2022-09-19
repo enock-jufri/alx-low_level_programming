@@ -2,7 +2,7 @@
 /**
  * puts2 - prints each char in newline
  *
- * @s: string parameter
+ * @str: string parameter
  *
  * Return:0
  */
